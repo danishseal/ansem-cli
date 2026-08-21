@@ -1,0 +1,14 @@
+{
+  "name": "ansem",
+  "version": "0.1.0",
+  "description": "ANSEMCHAIN chain explorer for your terminal. Ping the validators, watch blocks, check supply.",
+  "bin": { "ansem": "bin/ansem.js" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "files": ["bin", "src", "README.md"],
+  "scripts": {
+    "start": "node bin/ansem.js"
+  },
+  "keywords": ["ansem", "ansemchain", "cosmos", "blockchain", "cli", "tui", "explorer"],
+  "license": "MIT"
+}
